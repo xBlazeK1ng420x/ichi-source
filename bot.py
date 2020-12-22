@@ -131,6 +131,77 @@ class EchoBot(KikClientCallback):
             if chat_message.body.lower() == prefix+"ping":
                 self.client.send_chat_message(chat_message.group_jid, "Ping these nuts motherfucker!")
                 return
+            
+            elif chat_message.body.lower() == prefix+"yeet":
+                self.cliient.send_chat_message(chat_message.group_jid, "Get yeeted, bitch!")
+                return 
+            
+            elif chat_message.body.lower() == prefix+"blaze":
+                self.cliient.send_chat_message(chat_message.group_jid, '''Probably off getting high somewhere. "10 minutes" he said. "Ill be right" back he said. Pshh!''')
+                return
+            
+            elif chat_message.body.lower() == prefix+"queenie":
+                self.cliient.send_chat_message(chat_message.group_jid, "Queenie, Resident Princess. Yes Im aware it makes no sense. Talk to her about it!")
+                return
+            
+            elif chat_message.body.lower() == prefix+"vain":
+                self.cliient.send_chat_message(chat_message.group_jid, "Ironically, the TOTAL opposite of a vain person.")
+                return 
+            
+            elif chat_message.body.lower() == prefix+"koko":
+                self.cliient.send_chat_message(chat_message.group_jid, "THEY CALL HIM COWBOYYY KOKO!! He doesent know shit about cattle, but that wont stop him from riding you like a Buck-eye!")
+                return 
+              
+            elif chat_message.body.lower() == prefix+"nigger":
+                self.cliient.send_chat_message(chat_message.group_jid, "N1GG3R" * 250)
+                return 
+             
+            elif chat_message.body.lower() == prefix+"nigger10":
+                for x in range(0, 10):
+                self.cliient.send_chat_message(chat_message.group_jid, "N1GG3R" * 250)
+                return  
+
+            elif chat_message.body.lower() == prefix+"nigger25":
+                for x in range(0, 25):
+                self.cliient.send_chat_message(chat_message.group_jid, "N1GG3R" * 250)
+                return
+            
+            elif chat_message.body.lower() == prefix+"nigger50":
+                for x in range(0, 50):
+                self.cliient.send_chat_message(chat_message.group_jid, "N1GG3R" * 250)
+                return
+            
+            elif chat_message.body.lower() == prefix+"lag":
+                for x in range(0, 25):
+                self.cliient.send_chat_message(chat_message.group_jid, "1337" * 250 + "++")
+                return
+            
+            elif chat_message.body.lower() == prefix+"lag50":
+                for x in range(0, 50):
+                self.cliient.send_chat_message(chat_message.group_jid, "1337" * 250 + "++")
+                return
+            
+            elif chat_message.body.lower() == prefix+"lag100":
+                for x in range(0, 100):
+                self.cliient.send_chat_message(chat_message.group_jid, "1337" * 250 + "++")
+                return
+            
+            elif chat_message.body.lower() == prefix+"lag4evr":
+                while True
+                self.cliient.send_chat_message(chat_message.group_jid, "1337" * 250 + "++")
+                return
+            
+            elif chat_message.body.lower() == ".spin":
+                self.cliient.send_chat_message(chat_message.group_jid, ".spin")
+                return
+            
+            elif chat_message.body.lower() == prefix+"100":
+                self.cliient.send_chat_message(chat_message.group_jid, ".roll 100")
+                return
+            
+            elif chat_message.body.lower() == prefix+"1k":
+                self.cliient.send_chat_message(chat_message.group_jid, ".roll 1k")
+                return
 
             elif chat_message.body.lower() == prefix+"help":
                 with open("help.txt","r") as f:
@@ -250,77 +321,8 @@ class EchoBot(KikClientCallback):
                 else:
                     self.client.send_chat_message(chat_message.group_jid, "Sorry, I couldn't find anything ):")
                     
-             if chat_message.body.lower() == prefix+"yeet":
-                self.cliient.send_chat_message(chat_message.group_jid, "Get yeeted, bitch!")
-                return 
-            
-             if chat_message.body.lower() == prefix+"blaze":
-                self.cliient.send_chat_message(chat_message.group_jid, '''Probably off getting high somewhere. "10 minutes" he said. "Ill be right" back he said. Pshh!''')
-                return
-            
-             if chat_message.body.lower() == prefix+"queenie":
-                self.cliient.send_chat_message(chat_message.group_jid, "Queenie, Resident Princess. Yes Im aware it makes no sense. Talk to her about it!")
-                return
-            
-             if chat_message.body.lower() == prefix+"vain":
-                self.cliient.send_chat_message(chat_message.group_jid, "Ironically, the TOTAL opposite of a vain person.")
-                return 
-            
-             if chat_message.body.lower() == prefix+"koko":
-                self.cliient.send_chat_message(chat_message.group_jid, "THEY CALL HIM COWBOYYY KOKO!! He doesent know shit about cattle, but that wont stop him from riding you like a Buck-eye!")
-                return 
-              
-             if chat_message.body.lower() == prefix+"nigger":
-                self.cliient.send_chat_message(chat_message.group_jid, "N1GG3R" * 250)
-                return 
-             
-             if chat_message.body.lower() == prefix+"nigger10":
-                for x in range(0, 10):
-                self.cliient.send_chat_message(chat_message.group_jid, "N1GG3R" * 250)
-                return  
 
-             if chat_message.body.lower() == prefix+"nigger25":
-                for x in range(0, 25):
-                self.cliient.send_chat_message(chat_message.group_jid, "N1GG3R" * 250)
-                return
-            
-             if chat_message.body.lower() == prefix+"nigger50":
-                for x in range(0, 50):
-                self.cliient.send_chat_message(chat_message.group_jid, "N1GG3R" * 250)
-                return
-            
-             if chat_message.body.lower() == prefix+"lag":
-                for x in range(0, 25):
-                self.cliient.send_chat_message(chat_message.group_jid, "1337" * 250 + "++")
-                return
-            
-             if chat_message.body.lower() == prefix+"lag50":
-                for x in range(0, 50):
-                self.cliient.send_chat_message(chat_message.group_jid, "1337" * 250 + "++")
-                return
-            
-             if chat_message.body.lower() == prefix+"lag100":
-                for x in range(0, 100):
-                self.cliient.send_chat_message(chat_message.group_jid, "1337" * 250 + "++")
-                return
-            
-              if chat_message.body.lower() == prefix+"lag4evr":
-                while True
-                self.cliient.send_chat_message(chat_message.group_jid, "1337" * 250 + "++")
-                return
-            
-              if chat_message.body.lower() == ".spin":
-                self.cliient.send_chat_message(chat_message.group_jid, ".spin")
-                return
-            
-              if chat_message.body.lower() == prefix+"100":
-                self.cliient.send_chat_message(chat_message.group_jid, ".roll 100")
-                return
-            
-              if chat_message.body.lower() == prefix+"1k":
-                self.cliient.send_chat_message(chat_message.group_jid, ".roll 1k")
-                return
-            
+                    
     def on_group_status_received(self, response: IncomingGroupStatus):
 
         if re.search(" has promoted ", str(response.status)):
