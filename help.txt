@@ -1,2 +1,17 @@
-Have fun.
--Node
+'ping' pong!
+'help' sends the help message
+'count' sends the saved group count
+'pass' sends the current passkey, assuming you are in the 'super' list
+'settings' sends the current group settings
+'admins' sends the detected admins
+'welcome'/'rules' sends the welcome message
+'welcome (welcome message)' sets the welcome message
+'delete welcome' deletes the welcome message
+'days (number)' kicks accounts that are less than (number) days old, set to 0 to disable
+'reset' erases group data and leaves
+'quit' leaves without erasing group data
+'lock' locks the group
+'unlock' unlocks the group
+'enable AI' enables Coffeehouse AI
+'disable AI' disables Coffeehouse AI
+'dgg (query)' searches a duckduckgo query
